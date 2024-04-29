@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <form action="form1.html" style="border: 4px solid darkblue; padding: 5px;">
+        <h1>Reservation Request Form</h1>
+
+        <fieldset>
+            <legend style="color: darkblue;">General Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="arrival_date">Arrival date:</label>
+                    </td>
+                    <td>
+                         <input type="date" name="" id="arrival_date">
+                    </td>
+                    <td>
+                        <span>Arrival date is invalid.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nights">Nights:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="nights">
+                    </td>
+                    <td>
+                        <span>Nights must be a number.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="adults">Adults:</label>
+                    </td>
+                    <td>
+                        <input list="adults">
+                        <datalist id="adults">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="children">Children:</label>
+                    </td>
+                    <td>
+                        <input list="children">
+                        <datalist id="children">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </datalist>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="color: darkblue;">Preferences</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="room">Room type:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="room" id="">
+                        <label for="standard">Standard</label>
+                        <input type="radio" name="room" id="">
+                        <label for="business">Business</label>
+                        <input type="radio" name="room" id="room">
+                        <label for="suite">Suite</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bed_type">Bed type:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="bed_type" id="">
+                        <label for="king">King</label>
+                        <input type="radio" name="bed_type" id="">
+                        <label for="bouble_doubel">Double_Doubel</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox">
+                        <label for="smok">Smoking</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="color: darkblue;">Contact Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="name" required>
+                    </td>
+                    <td>
+                        <span>Name is required.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="" id="email">
+                    </td>
+                    <td>
+                        <span>Email address is invalid.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pno">Phone:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="" id="pno">
+                    </td>
+                    <td>
+                        <span>Phone number is invalid.</span>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit Reservation">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
