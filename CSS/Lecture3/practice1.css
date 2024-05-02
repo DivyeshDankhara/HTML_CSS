@@ -1,0 +1,40 @@
+/* @import url("./import.css"); */
+@import "./import.css";
+/* p{
+    color: blue !important;
+} */
+
+/* h1{
+    color: yellowgreen;
+}
+
+h1{
+    color: aqua;
+} */
+
+/* h4{
+    color:brown
+}
+#box_id{
+    color: aqua;
+}
+.box_class{
+    color: blue;
+} */
+
+.parent{
+    color: red;
+}
+
+/* child */
+p{
+    color: blue;
+}
+
+p{
+    color: inherit;
+}
+
+p{
+    color: initial;
+}
