@@ -1,0 +1,81 @@
+.border1{
+    border-width: 3px;
+    border-style: dotted;
+    background-color: rgb(63, 166, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.border2{
+    border-width: 3px;
+    border-style: dashed;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.border3{
+    border-width: 3px;
+    border-style: solid;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.border4{
+    border-width: 3px;
+    border-style: double;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 5px;
+}
+.border5{
+    border-width: 3px;
+    border-style: groove;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.border6{
+    border-width: 3px;
+    border-style: ridge;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+}
+.border7{
+    border-width: 3px;
+    border-style: insert;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+}
+.border8{
+    border-width: 3px;
+    border-style: outset;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 5px;
+}
+.border9{
+    border-width: 3px;
+    border-style: none;
+    background-color: chocolate;
+    padding: 5px;
+    border-radius: 5px;
+}
+.border10{
+    border-width: 3px;
+    border-style: hidden;
+    background-color: darkgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+.border11{
+    border-width: 3px;
+    border-style: unset;
+    background-color: deeppink;
+    padding: 5px;
+    border-radius: 5px;
+}
+
