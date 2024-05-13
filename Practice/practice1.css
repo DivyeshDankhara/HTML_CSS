@@ -29,12 +29,22 @@ img{
     border-radius: 15px 15px 15px 15px;
 }
 
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
 button{
     background-color: rgb(7, 87, 225);
     height: 40px;
     width: 90px;
     border-radius: 10px 10px 10px 10px;
     margin: 20px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .content{
@@ -44,3 +54,7 @@ button{
     background-color: red;
 }
 
+h1{
+    background-color: grey;
+    text-align: center;
+}
