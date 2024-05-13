@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    height: auto;
+    justify-content: space-evenly;
+    background-color: grey;
+    padding: 50px;
+}
+
+img{
+    height: 160px;
+    width: 160px;
+    border-radius: 15px 15px 0px 15px;
+    margin: 20px;
+}
+
+.card{
+    height: auto;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+}
+
+button{
+    background-color: rgb(7, 87, 225);
+    height: 40px;
+    width: 90px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+}
+
+.content{
+    padding: 15px;
+    color: yellow;
+    border-radius: 0px 15px 15px 15px;
+    background-color: red;
+}
+
