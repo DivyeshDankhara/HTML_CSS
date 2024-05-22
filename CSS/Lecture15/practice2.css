@@ -1,0 +1,19 @@
+a:nth-child(1){
+    color: red;
+    background-color: yellow;
+}
+
+h1:nth-child(3), h1:nth-child(6){
+    color: red;
+    background-color: yellow;
+}
+
+input:first-of-type{
+    color: red;
+    background-color: yellow;
+}
+
+h1:nth-child(1){
+    color: red;
+    background-color: yellow;
+}
