@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: aqua;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* word-wrap: break-word; */
+}
