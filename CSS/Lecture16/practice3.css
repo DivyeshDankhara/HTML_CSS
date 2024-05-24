@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main>div{
+    display: flex;
+    margin: 60px;
+    border: 2px dotted black;
+    gap: 20px;
+}
+
+.box{
+    background-color: red;
+    width: 25%;
+    height: 150px;
+}
+
+.box:nth-child(2){
+    background-color: green;
+}
+
+.container1 .box:nth-child(2){
+    position: static;
+}
+
+.container2 .box:nth-child(2){
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.container3 .box:nth-child(2){
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.container3{
+    position: relative;
+}

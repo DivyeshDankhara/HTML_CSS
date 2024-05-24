@@ -340,7 +340,7 @@ a{
 }
 
 .container6{
-    background-color: rgb(237, 221, 190);
+    background-color: rgb(225, 218, 204);
     padding: 140px; 
 }
 
@@ -370,26 +370,11 @@ a{
     gap: 2rem;
 }
 .c6c2>div{
-    background-color: yellow;
+    background-color: white;
     border-radius: 15px;
 }
 
 
-.c6c2c1_image{ 
-    
-}
-
-.c6c2c2_image {   
-}
-
-.c6c2c3_image{   
-}
-
-.c6c2c4_image{   
-}
-
-.c6c2c5_image{   
-}
-
-.c6c2c6_image{   
+.content{
+    padding: 20px;
 }
