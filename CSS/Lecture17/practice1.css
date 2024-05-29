@@ -1,6 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-img{
-    /* -webkit-mask-image: url("image.png"); */
-    mask-image: url("image.png");
-    width: 400px;
+/* .mask img{
+    mask-image: url("https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2014/10/mask-image.png?x82873");
+    mask-repeat: no-repeat;
+} */
+
+/* .mask img:nth-child(1){
+    height: 500px;
+    width: 800px;
+    filter: blur(10px);
+    background-color: red;
+} */
+
+/* .mask img:nth-child(2){
+    height: 500px;
+    width: 800px;
+    filter: none;
+} */
+
+.container img{
+    filter: blur(50px);
+    filter: none;
+    filter: brightness(200%);
+    filter: drop-shadow(10px 20px 5px red);
+    filter: grayscale(100%);
+    filter: opacity(0%);
+    filter: opacity(60%);
+    filter: contrast(0%);
+    filter: contrast(200%);
 }

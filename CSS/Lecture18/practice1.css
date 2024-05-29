@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main_box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    color: black;
+    background-color: blue;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes circle{
+    /* from{
+        top: 0;
+        left: 0;
+        background-color: darkcyan;
+        border: 5px solid black;
+    }
+
+    to{
+        top: 0;
+        left: 200px;
+        background-color: red;
+        border-radius: 50%;
+    } */
+
+    0%{
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+
+    25%{
+        background-color: yellow;
+        left: 200px;
+        top: 0;
+    }
+
+    50%{
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75%{
+        background-color: green;
+        left: 0;
+        top: 200px;
+    }
+
+    100%{
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+}

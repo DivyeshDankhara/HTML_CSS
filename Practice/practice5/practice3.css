@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    background-color: aqua;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_b i{
+    background-color: red;
+    font-size: 30px;
+}
+
+.first_b::before{
+    position: absolute;
+    content: "Copy";
+    background-color: black;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 5px;
+    top: 20px;
+}
+
+.first_b{
+    position: relative;
+}

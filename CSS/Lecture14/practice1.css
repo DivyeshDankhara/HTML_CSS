@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Css Transform */
+.path{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.translate{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+.path:hover .translate{
+    /* transform: translate(400px , 500px); */
+    /* transform: translate(400px); */
+    /* transform: translateY(400px); */
+    /* transform: rotate(180deg); */
+    /* transform: scale(3); */
+    /* transform: scale(2); */
+    /* transform: skew(90deg , 45deg); */
+    /* transform: skewY(45deg); */
+    /* transition: 5s; */
+}
+
+/* .image{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+
+img:hover{
+    transform: scale(10);
+    transition: 2s;
+} */
+
+/* Css Transition */
+
+.transition{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
+
+.path:hover .transition{
+    width: 500px;
+    height: 500px;
+    transform: translate(100px);
+    /* transition-delay: 5s; */
+    transition-duration: 5s;
+    /* transition-property: width height transform; */
+    transition-timing-function: ease-in-out;
+}

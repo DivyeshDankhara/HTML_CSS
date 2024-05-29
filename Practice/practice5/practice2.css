@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(25, 178, 170);
+}
+
+.navbar{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin: 250px auto;
+    border-radius: 60px;
+    padding: 40px;
+}
+
+.navbar>div{
+    color: rgb(25, 178, 170);
+    border-radius: 60px;
+
+    p{
+        padding: 1rem;
+    }
+}
+
+.navbar>div:hover{
+    background-color: rgb(25, 178, 170);
+    color: white;  
+}
+
+
+
+.box1 ,.box9{
+    display: flex;
+    align-items: center;
+}
