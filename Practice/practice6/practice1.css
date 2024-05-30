@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    min-height: 100svh;
+    padding: 3rem;
+    gap: 3rem;
+    background-color: darkblue;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.main>div{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-image: url("images.jpeg");
+    background-size: cover;
+    background-position: 100% 100%;
+    min-height: 100px;
+}
+
+@media (max-width:768px) {
+    .main{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:412px){
+    .main{
+        grid-template-columns: auto;
+    }
+}
