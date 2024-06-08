@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+$h1color: white;
+$h1font: 45px;
+$pfont: 14px;
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.left{
+
+    p{
+        color: white;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    p:hover{
+        color: black;
+    }
+}
+
+.right{
+    width: 45%;
+
+    nav{
+        // background-color: blue;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+
+        a:hover{
+            color: black;
+        }
+    }
+}
+
+.main{
+    background-image: url("images.jpg");
+    height: 100svh - 7svh;
+    background-size: cover;
+    color: $h1color;
+    text-align: center;
+    padding: 180px 300px;
+
+
+    h1{
+        font-size: $h1font;
+    }
+
+    p{
+        font-size: $pfont;
+    }
+
+    span{
+        color: blue;
+    }
+
+    a{
+        color: white;
+        font-size: 16px;
+        font-weight: 900;
+        background-color: orangered;
+        padding: 12px 38px;
+    }
+
+    a:hover{
+        transition: 2s;
+        background-color: black;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+$fpadding: 100px 0px;
+
+.ecommerce{
+    width: 20%;
+    padding: $fpadding;
+
+    .flogo{
+        display: flex;
+
+        img{
+            height: 40px;
+            width: 40px;
+            border: 1px solid black;
+        }
+    
+        h2{
+            padding: 6px 10px;
+        }
+    }
+
+    p{
+        font-size: 12px;
+        opacity: 0.6;
+    }
+
+    i{
+        font-size: 18px;
+    }
+
+    .ficon{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+$li_fontsize: 12px;
+$li_opa: 0.6;
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: $fpadding;
+    width: 35%;
+
+    ul{
+        list-style: none;
+    }
+    li{
+        font-size: $li_fontsize;
+        opacity: $li_opa;
+    }
+}
+
+.payment{
+    padding: $fpadding;
+    // width: 20%;
+
+    p{
+        font-size: 12px;
+        opacity: 0.6;
+    }
+
+    .fp{
+        display: flex;
+        gap: 20px;
+        font-size: 30px;
+    }
+}

@@ -1,1 +1,17 @@
-/*# sourceMappingURL=project2.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.first_navbar {
+  background-color: #1b1b1b;
+  color: #848484;
+}
+
+@media (max-width: 426px) {
+  .first_navbar {
+    display: none;
+  }
+}/*# sourceMappingURL=project2.css.map */

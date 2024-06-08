@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"project2.css"}
+{"version":3,"sources":["project2.scss","project2.css"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,YAAA;EACA,sBAAA;EACA,iCAAA;ACCJ;;ADEA;EACI,yBAAA;EACA,cAAA;ACCJ;;ADEA;EACI;IACI,aAAA;ECCN;AACF","file":"project2.css"}

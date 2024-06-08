@@ -7,8 +7,9 @@
 body{
     background-color: tomato;
     color: royalblue;
+    text-align: center;
 }
-
+/* 
 @media (max-width: 320px){
 
     body{
@@ -17,3 +18,25 @@ body{
     }
 }
 
+@media (min-width: 320px){
+
+    body{
+        background-color: aqua;
+        color: red;
+    }
+} */
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+      max-width: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    .container {
+      width: 90%;
+      max-width: 280px;
+    }
+  }

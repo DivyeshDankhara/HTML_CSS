@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: orangered;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.left p {
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+}
+.left p:hover {
+  color: black;
+}
+
+.right {
+  width: 45%;
+}
+.right nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.right nav a:hover {
+  color: black;
+}
+
+.main {
+  background-image: url("images.jpg");
+  height: 93svh;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 180px 300px;
+}
+.main h1 {
+  font-size: 45px;
+}
+.main p {
+  font-size: 14px;
+}
+.main span {
+  color: blue;
+}
+.main a {
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  background-color: orangered;
+  padding: 12px 38px;
+}
+.main a:hover {
+  transition: 2s;
+  background-color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ecommerce {
+  width: 20%;
+  padding: 100px 0px;
+}
+.ecommerce .flogo {
+  display: flex;
+}
+.ecommerce .flogo img {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
+.ecommerce .flogo h2 {
+  padding: 6px 10px;
+}
+.ecommerce p {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.ecommerce i {
+  font-size: 18px;
+}
+.ecommerce .ficon {
+  display: flex;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0px;
+  width: 35%;
+}
+.option ul {
+  list-style: none;
+}
+.option li {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.payment {
+  padding: 100px 0px;
+}
+.payment p {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.payment .fp {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+}/*# sourceMappingURL=practice1.css.map */

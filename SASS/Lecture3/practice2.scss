@@ -1,0 +1,41 @@
+@import "_color.scss";
+
+@mixin color-mixin{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+// create mixin with arguments
+@mixin color-mixin($color){
+    color: $color;
+    font-size: $font;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    // color: $color;
+    // @include color-mixin;
+
+    @include color-mixin(blue);
+}
+
+h2{
+    color: $color;
+    font-size: 30px;
+    // @include color-mixin;
+
+    @include color-mixin(red);
+}
+
+h3{
+    // @include color-mixin;
+
+    @include color-mixin(yellow);
+}
