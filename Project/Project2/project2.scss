@@ -8,6 +8,24 @@
 .first_navbar{
     background-color: #1b1b1b;
     color: #848484;
+    font-size: 13.5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 20px;
+
+    .first_navbar_left{
+        display: flex;
+        gap: 20px;
+    }
+        
+    .first_navbar_right{
+        display: flex;
+        gap: 20px;
+
+        span{
+            color: #fcc904;
+        }
+    }
 }
 
 @media (max-width: 426px) {
